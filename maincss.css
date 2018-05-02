@@ -1,0 +1,82 @@
+/**
+ * Float Layout Activity
+ **/
+
+
+ /** {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    font-size: 18px;
+  }**/
+
+
+
+body{
+  
+    font-family:Arial, Helvetica, sans-serif;
+    color: #777;
+    background: rgb(168, 15, 15);
+    font-size: 18px;
+    width: 960px;
+    margin-left: 250px;
+    text-align: center;
+    
+    
+}
+
+header, nav, section,aside, and footer{
+        background:#ebebeb;
+
+        
+
+}
+
+h1 and p{
+    color:777;
+    background: #ebebeb;
+}
+
+.HeadNav{
+    height:80px;   
+    
+}
+
+
+.sidebyside{
+    float:left;
+    height: 300px;
+    width:   470px;
+    background:#ebebeb;
+    
+    
+
+}
+
+#rightdiv
+{
+margin-left:20px;    
+}
+
+.clearfixhack{
+    content: "";
+    clear: both;
+    display:table;
+    
+}
+
+#article{
+color: #ebebeb;
+background:#777;
+margin: 10px;
+height: 210px
+}
+
+
+
+.h1p{
+    color: #777;
+    background:#ebebeb;
+    margin: 10px;
+    height: 50px
+    }
